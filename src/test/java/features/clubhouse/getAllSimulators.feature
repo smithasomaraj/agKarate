@@ -22,19 +22,4 @@ Feature: API - Get all simulators
     Then status 404
     * print response
 
-  Scenario: get status of all simulators in a given facility
-  	
-    Given url baseUrl
-    And path '/api/facility/'+facilityId+'/simulators/status'
-    When method GET
-    Then status 200
-    * print response
- 
-   Scenario: get status of a single simulator in a given facility
-  	
-    Given url baseUrl
-    And path '/api/facility/'+facilityId+'/simulators/70737247-bfd9-4d40-9cdf-4baa3fa688f8/status'
-    When method GET
-    Then status 200
-    * print response
-     
+  

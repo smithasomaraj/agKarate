@@ -5,7 +5,7 @@ function fn() {
     env = 'qa'; // a custom 'intelligent' default
   }
   var config = { // base config JSON
-    apiKey : 'FEBA477E-FC36-4A65-B644-4FBBF788D262',
+    apiKey : '711d4773-b82a-41d8-befe-da8f003af11a',
     subscriptionKey : '000e66f7ee544da6896d5f9e62c1f1e3',
     baseUrl: 'https://clubhouse-api-test.aboutgolf.com',
     facilityId : '67a044eb-bb41-4d69-8913-4659e72bccaf'
