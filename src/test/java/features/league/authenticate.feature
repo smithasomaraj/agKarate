@@ -2,6 +2,7 @@ Feature: API - Returns auth token for clubhouse
 
   Background: 
     * def key = apiKey
+    * def sub = subscriptionKey
     * configure headers = {api-key : #(key)}
     * url baseUrl
 
@@ -19,4 +20,5 @@ Feature: API - Returns auth token for clubhouse
     And request requestPayload
     When method POST
     Then status 200
+    * print response
     * def accessToken =  response
